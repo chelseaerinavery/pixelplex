@@ -1,6 +1,6 @@
 A simple static site for a local gaming shop / community center.
 
-Credits:)
+Credits:
 
 	Icons:
 		Font Awesome (fontawesome.io)

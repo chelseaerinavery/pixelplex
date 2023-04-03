@@ -1172,7 +1172,7 @@ br.clear {
 	}
 
 	.row>.col-6-medium {
-		width: 50%;
+		width: 33%;
 	}
 
 	.row>.off-6-medium {
@@ -1327,6 +1327,12 @@ br.clear {
 
 	.row.gtr-200.gtr-uniform>* {
 		padding-top: 100px;
+	}
+
+	#features p {
+		text-align: center;
+		font-size: 14.5px;
+		line-height: normal;
 	}
 
 }
@@ -1841,14 +1847,9 @@ table tbody tr:first-child {
 	border-top: 0;
 }
 
-table td {
-	padding: 0.75em 1em 0.75em 1em;
-}
-
 table th {
 	text-align: left;
 	font-weight: bold;
-	padding: 0.75em 1em 0.75em 1em;
 }
 
 table thead {
@@ -1865,6 +1866,15 @@ table thead {
 table tfoot {
 	background: #F0F0F0;
 	border-top: solid 2px #E5E5E5;
+}
+
+table.hours-operation {
+	margin-bottom: 0;
+	border-collapse: separate;
+}
+
+table.hours-operation th td {
+	padding: 0;
 }
 
 /* Button */
@@ -2822,6 +2832,12 @@ button.alt:active,
 	#sidebar>article {
 		margin: 3em 0 0 0;
 		padding: 3em 0 0 0;
+	}
+
+	/* Table */
+
+	table {
+		width: 50%;
 	}
 
 	/* Footer */
